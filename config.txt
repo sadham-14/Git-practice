@@ -1,1 +1,1 @@
-Environment=DEV
+Environment=PROD
