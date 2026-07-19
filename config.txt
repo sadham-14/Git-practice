@@ -1,1 +1,1 @@
-Environment=QA
+Environment=UAT
