@@ -2,5 +2,7 @@ This is a practice lab and my goal is to create a git repo and make my first com
 
 Now i added another line to check git difference b/w git diff and git diff --staged
 
-i completed practice lab-1,2,4
+i completed practice lab-1,2,4 and 5 
+
+3rd is left to practice
 
