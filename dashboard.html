@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, sans-serif;
+        }
+
+        body{
+            display:flex;
+            background:#f4f4f4;
+        }
+
+        /* Sidebar */
+        .sidebar{
+            width:220px;
+            height:100vh;
+            background:#2c3e50;
+            color:white;
+            padding:20px;
+        }
+
+        .sidebar h2{
+            margin-bottom:30px;
+            text-align:center;
+        }
+
+        .sidebar ul{
+            list-style:none;
+        }
+
+        .sidebar ul li{
+            padding:12px;
+            margin:10px 0;
+            background:#34495e;
+            border-radius:5px;
+            cursor:pointer;
+        }
+
+        .sidebar ul li:hover{
+            background:#1abc9c;
+        }
+
+        /* Main Content */
+        .main{
+            flex:1;
+        }
+
+        /* Header */
+        .header{
+            background:white;
+            padding:20px;
+            box-shadow:0 2px 5px rgba(0,0,0,0.2);
+        }
+
+        /* Cards */
+        .cards{
+            display:flex;
+            gap:20px;
+            padding:20px;
+            flex-wrap:wrap;
+        }
+
+        .card{
+            flex:1;
+            min-width:200px;
+            background:white;
+            padding:20px;
+            border-radius:10px;
+            box-shadow:0 2px 5px rgba(0,0,0,0.2);
+            text-align:center;
+        }
+
+        .card h3{
+            color:#555;
+        }
+
+        .card p{
+            font-size:28px;
+            margin-top:10px;
+            color:#1abc9c;
+            font-weight:bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="sidebar">
+        <h2>Dashboard</h2>
+
+        <ul>
+            <li>🏠 Home</li>
+            <li>👤 Profile</li>
+            <li>📊 Reports</li>
+            <li>⚙ Settings</li>
+            <li>🚪 Logout</li>
+        </ul>
+    </div>
+
+    <div class="main">
+
+        <div class="header">
+            <h1>Welcome, User</h1>
+        </div>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Total Users</h3>
+                <p>120</p>
+            </div>
+
+            <div class="card">
+                <h3>Sales</h3>
+                <p>$5,600</p>
+            </div>
+
+            <div class="card">
+                <h3>Orders</h3>
+                <p>89</p>
+            </div>
+
+            <div class="card">
+                <h3>Revenue</h3>
+                <p>$12,400</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
