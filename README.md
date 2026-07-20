@@ -4,5 +4,10 @@ Now i added another line to check git difference b/w git diff and git diff --sta
 
 i completed practice lab-1,2,4 and 5 
 
-3rd is left to practice
+practice lab 3 using 2 directories instead of collab
+
+merge colfict was resolved by edidting the file in 3rd plan
+
+
+
 
